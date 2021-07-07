@@ -44,7 +44,15 @@ const Cart = () => {
           ""
         ) : (
           <Link style={{ textDecoration: "none" }} to="/Thankyou">
-            <button class="btn-cart btn-dark" type="button">
+            <button
+              onClick={() =>
+                setTimeout(() => {
+                  window.location.href = "/";
+                }, 4000)
+              }
+              class="btn-cart btn-dark"
+              type="button"
+            >
               Checkout
             </button>
           </Link>
