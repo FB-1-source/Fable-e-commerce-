@@ -1,0 +1,514 @@
+body {
+  font-family: "Montserrat", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.container-fluid {
+  height: 60px;
+}
+
+.icon1 {
+  font-size: 25px;
+}
+
+.fas {
+  color: black;
+}
+
+.fas2 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.double {
+  display: flex;
+  flex-basis: 100%;
+  margin: 5rem 2rem 10rem 0;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 15rem 0 10rem;
+}
+
+.name2 {
+  margin-top: 2rem;
+}
+
+.imgscaro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.double img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.part {
+  margin-right: 1rem;
+}
+
+.part i {
+  font-size: 20px;
+}
+
+.btn1 {
+  margin-top: 2rem;
+  width: 90%;
+  height: 60px;
+  transition: all 0.2s ease-in-out;
+  background-color: black;
+}
+
+.btn1:hover {
+  transform: scale(1.1);
+}
+
+.fimgs {
+  width: 300px;
+  border-radius: 10px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.fbtn {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+
+.mainfooter {
+  margin-top: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  padding: 0 0.5rem 0 0.5rem;
+  border-top: 1px solid whitesmoke;
+}
+
+.flinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.socials i {
+  margin-right: 2rem;
+}
+
+.Support {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.toptag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15rem;
+}
+
+.toptagprod {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.mainnews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15rem 0 15rem 0;
+}
+
+.newsletter {
+  border-radius: 10px;
+  border-style: solid;
+  height: 300px;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: whitesmoke;
+  align-items: center;
+  flex-direction: column;
+}
+
+.newsdoub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsdoub input {
+  margin-right: 1rem;
+  height: 50px;
+  width: 500px;
+}
+
+.imgsfea {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.imgsfea img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.f1 {
+  width: 610px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.f2 {
+  width: 610px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.allbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-style: none;
+  flex-basis: 33.333333%;
+  background-color: white;
+  margin: 5rem 5rem 10rem 5rem;
+}
+
+.bbox {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.2s ease-in-out;
+}
+
+.bbox:hover {
+  transform: scale(1.05);
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.box2 h6 {
+  margin-bottom: 1rem;
+}
+
+.modalgp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.modalcomb {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-row: auto auto;
+}
+.modalimg {
+  width: 215px;
+  height: 215px;
+}
+
+.allmod {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.modoub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.modoub h1 {
+  margin-bottom: 1rem;
+}
+
+.modoub h2 {
+  margin-bottom: 1rem;
+}
+
+.modoub h6 {
+  margin-bottom: 1rem;
+}
+
+.desc {
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 5px #000000;
+}
+
+.ctop {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+  margin-top: 2rem;
+  margin-bottom: 23.3rem;
+}
+
+.badge {
+  margin: -1rem 0 0 -1.2rem;
+}
+.allcbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+  width: 420px;
+  height: 200px;
+}
+
+.cimgs {
+  width: 150px;
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.cbox2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cbox2 div {
+  display: flex;
+  margin-left: 1rem;
+  font-size: 12px;
+}
+
+.btn-cart {
+  border-radius: 40px;
+  width: 200px;
+  background-color: black;
+}
+
+.btn-cart2 {
+  margin-left: 1rem;
+  border-radius: 40px;
+  width: 60px;
+  font-size: 9px;
+  text-align: center;
+  background-color: black;
+}
+
+.summary h2 {
+  margin-bottom: 2rem;
+}
+.summary h4 {
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  margin-bottom: 2rem;
+}
+
+.whole {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.thanks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .footer {
+    display: none;
+  }
+  .double {
+    margin: 5rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .caros {
+    display: none;
+  }
+
+  .name {
+    margin: 0;
+  }
+
+  .btn1 {
+    width: 50%;
+    transition: none;
+  }
+
+  .btn1:hover {
+    transform: none;
+  }
+
+  .toptag {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imgsfea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem 5rem 0 5rem;
+  }
+
+  .f1 {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2rem;
+  }
+  .f2 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mainnews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .newsletter {
+    margin: 0 1rem 0 1rem;
+    padding: 0 1rem 0 1rem;
+    width: 100%;
+  }
+  .newsdoub input {
+    width: 100%;
+  }
+
+  .newsdoub button {
+    margin-top: 1rem;
+  }
+
+  .allmod {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1rem 0 1rem;
+  }
+  .modalcomb {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modalimg {
+    display: none;
+  }
+
+  .modalmain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .desc {
+    display: none;
+  }
+
+  .bbox {
+    transition: none;
+  }
+
+  .bbox:hover {
+    transform: none;
+  }
+
+  .ctop {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 1rem 0 0 0;
+    overflow: scroll;
+  }
+
+  .allcbox {
+    margin: 1rem 1rem 0 1rem;
+  }
+
+  .cbox {
+    width: 60%;
+    height: 60%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .cimgs {
+    margin: 0rem 0rem 1rem 1rem;
+  }
+
+  .summary {
+    margin: 1rem 1rem 0 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
