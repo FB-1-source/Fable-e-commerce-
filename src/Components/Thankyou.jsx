@@ -17,7 +17,8 @@ const Thankyou = () => {
             <h1>Thank you for your purchase!</h1>{" "}
             <h5>
               {" "}
-              You ordered {cartItems.length} shoes and your total was{" "}
+              You ordered {cartItems.length}{" "}
+              {cartItems.length > 1 ? "shoes" : "shoe"} and your total was{" "}
               {"$" + totalprice}
             </h5>
           </div>

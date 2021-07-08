@@ -95,6 +95,10 @@ body {
   background-color: black;
 }
 
+.fbtn:hover {
+  opacity: 0.8;
+}
+
 .mainfooter {
   margin-top: auto;
 }
@@ -353,6 +357,14 @@ body {
   font-size: 9px;
   text-align: center;
   background-color: black;
+}
+
+.btn-cart:hover {
+  opacity: 0.8;
+}
+
+.btn-cart2:hover {
+  opacity: 0.8;
 }
 
 .summary h2 {

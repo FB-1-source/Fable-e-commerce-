@@ -37,7 +37,6 @@ const App = () => {
             <Route exact path="/Cart">
               <Navbar />
               <Cart />
-              <Footer />
             </Route>
             <Route exact path="/">
               <Navbar />

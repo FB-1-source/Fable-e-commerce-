@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div>
       <nav class="navbar sticky-top navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
           <h2>Fable</h2>
         </a>
         <div className="part">
