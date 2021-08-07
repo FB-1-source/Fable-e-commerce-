@@ -100,6 +100,7 @@ export default function NewModal({ children, id }) {
                   <button
                     onClick={() => {
                       Addtocart(item);
+                      setOpen(false);
                     }}
                     type="button"
                     class="btn btn-dark fbtn"
