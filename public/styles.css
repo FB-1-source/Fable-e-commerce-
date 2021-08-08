@@ -505,8 +505,8 @@ body {
   }
 
   .cbox {
-    width: 65%;
-    height: 65%;
+    width: 80%;
+    height: 80%;
     margin-bottom: 1rem;
     display: flex;
     justify-content: center;
